@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1,6;
+  background-color: #f2f2f2; /* Màu nền cho body */
+}
+
+.maytinh {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #fff; /* Màu nền cho phần máy tính */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+button {
+  margin: 10px 0;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box; /* Đảm bảo kích thước của input và button không thay đổi khi thêm border */
+}
+
+input[type="text"] {
+  width: calc(100% - 40px); /* Độ rộng input */
+  border: #45a049;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#ketqua {
+  margin-top: 20px;
+  font-size: 18
+}
